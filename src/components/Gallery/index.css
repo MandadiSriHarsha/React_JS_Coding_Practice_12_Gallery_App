@@ -1,0 +1,60 @@
+.gallery-bg-container {
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery-bg-container {
+    padding: 40px;
+  }
+}
+
+.home-page-image {
+  height: 230px;
+  width: 310px;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-page-image {
+    height: 650px;
+    width: 1100px;
+  }
+}
+
+.home-page-heading {
+  font-size: 25px;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .home-page-heading {
+    font-size: 25px;
+  }
+}
+
+.home-page-description {
+  font-size: 18px;
+  font-weight: 500;
+  color: #64748b;
+}
+
+@media screen and (min-width: 768px) {
+  .home-page-description {
+    font-size: 25px;
+  }
+}
+
+.thumbnails-card {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnails-card {
+    flex-wrap: none;
+  }
+}
